@@ -14,7 +14,7 @@ public class MatematicaTests {
 	@Test
 	public void testSumaCorectitudine() {
 		int rezultat=mate.suma(3, 12);
-		int rezultatAsteptat=16;
+		int rezultatAsteptat=15;
 		assertEquals(rezultatAsteptat, rezultat);
 	}
 	
